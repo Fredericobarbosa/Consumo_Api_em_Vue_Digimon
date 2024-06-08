@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT_BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumo de API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+    <button @click="fetchDigimons">Chamar Digimon</button>
+    <input type="text" v-model="searchText" placeholder="Informe seu Digimon">
+    <div class="digimon-container">
+        <ul>
+            <li v-for="digimon in filteredDigimons" :key="digimon.name" :class="getLevelClass(digimon.level)" >
+                <div class="digimon-card">
+                    <img :src="digimon.img" alt="">
+                    <p>{{digimon.name}}</p>
+                    <div v-if="digimon.showDetails" class="details">
+                        <p>{{digimon.level}}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+<script src="index.js"></script>

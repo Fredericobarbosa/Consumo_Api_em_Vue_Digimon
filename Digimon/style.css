@@ -1,0 +1,77 @@
+body {
+    font-family: "Comic Sans MS";
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+li {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border-color: #000000;
+    border-width: 1px;
+    border-style:solid;
+}
+
+li:hover {
+    background-color: #46e2a1;
+    color: whitesmoke;
+}
+
+.digimon-card {
+    text-align: center;
+}
+
+.digimon-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.rookie {
+    background-color: #67e96e;
+    color: #f5f5f5;
+}
+.champion {
+    background-color: #e2bf64;
+    color: #000000;
+}
+.ultimate {
+    background-color: #f3f050;
+    color: #000000;
+}
+.mega {
+    background-color: #e2b22e;
+    color: #000000;
+}
+.armor {
+    background-color: #62d8ba;
+    color: #000000;
+}
+.fresh {
+    background-color: #9f9f9f;
+    color: #f5f5f5;
+}
+.training {
+    background-color: #37bbb7;
+    color: #f5f5f5;
+}
+.in-Training {
+    background-color: #8bdfa7;
+    color: #f5f5f5;
+}
