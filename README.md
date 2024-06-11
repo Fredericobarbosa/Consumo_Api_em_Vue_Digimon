@@ -4,8 +4,8 @@
 ### Este trabalho foi criado para testar os conhecimentos de consumo de Api tido em sala.
 ---
 ## Imagem da tela do site:
-<img src="https://github.com/Fredericobarbosa/Consumo_Api_em_Vue_Digimon/blob/main/Img_Digimon/TelaSite.PNG" alt="Imagem do site" width="95%" >
-<img src="https://github.com/Fredericobarbosa/Consumo_Api_em_Vue_Digimon/blob/main/Img_Digimon/TelaSite1.PNG" alt="Imagem do site" width="95%">
+<img src="https://github.com/Fredericobarbosa/Consumo_Api_em_Vue_Digimon/blob/main/Img_Digimon/Telasite.PNG" alt="Imagem do site" width="95%" >
+<img src="https://github.com/Fredericobarbosa/Consumo_Api_em_Vue_Digimon/blob/main/Img_Digimon/Telasite1.PNG" alt="Imagem do site" width="95%">
 
 ---
 ## Construído com 🛠️ :
